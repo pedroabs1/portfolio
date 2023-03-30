@@ -18,20 +18,20 @@ Criação de um projeto em html para divulgação dos meus trabalhos e experienc
   
 ## 📁 Acesso ao projeto
 
-[Veja o projeto em funcionamento](https://aluramidi-curso.vercel.app/).
+[Veja o projeto em funcionamento]([https://aluramidi-curso.vercel.app/](https://portfolio-pedroabs1-pi.vercel.app/)
 
 Neste repositório você tem acesso a todo o codigo fonte do material produzido.
 
 ## 🛠️ Abrir e rodar o projeto
 
-Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador ou acesse.
+Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador ou acesse https://portfolio-pedroabs1-pi.vercel.app/
 
 ## 📚 Mais informações
 
 Acesse minhas redes.
 
-https://github.com/pedroabs1
+**GitHub:** https://github.com/pedroabs1
 
-https://www.linkedin.com/in/pedro-augusto-barbosa-de-souza-15a2b39b
+**LinkedIn:** https://www.linkedin.com/in/pedro-augusto-barbosa-de-souza-15a2b39b
 
-pedroabs1@gmail.com
+**E-Mail:** mailto:pedroabs1@gmail.com
