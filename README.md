@@ -1,10 +1,7 @@
 # Portfolio
 Repositório para meus projetos como desenvolvedor de software.
 
-![JavaScript para web: crie páginas dinâmicas](https://user-images.githubusercontent.com/3089882/136042927-247c4863-2c87-44d2-a6f9-116e2d4087b1.png)
-
-<img src="https://user-images.githubusercontent.com/3089882/136043109-1fc85faa-8cfb-4056-a144-98f0f75c2565.png" alt="Imagem do Alura MIDI" width="50%">
-
+![Screenshot_1](https://user-images.githubusercontent.com/81322227/228926412-c6d13743-e2ef-49f4-b3d1-46752b8cb9ad.png)
 
 ## 🔨 Funcionalidades do projeto
 
@@ -15,9 +12,10 @@ Criação de um projeto em html para divulgação dos meus trabalhos e experienc
 - `HTML`: O HTML tem um papel fundamental para a aplicação funcionar corretamente com a inserção dos elementos `<audio>` que irão prover para o JavaScript os controles de reprodução da mídia carregada. O HTML já virá pronto nos arquivos iniciais do curso;
 - `CSS`: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica, portanto indica quando os botões são pressionados por mouse ou teclado. O CSS já virá pronto nos arquivos iniciais do curso;
 - `JavaScript`: O JavaScript proporcionará programarmos a dinâmica de controle de reprodução de um som, que a princípio está sendo realizada pelo elemento `<audio>`, e passarmos este controle para os elementos `<button>`, com todo o cuidado de fazer um código inteligente, sem repetição, que cuida também os aspectos visuais com CSS dinâmico. Abaixo alguns tópicos abordados no curso:
+  - `Responsividade para se adaptar a varios tamanhos de telas`;
   - `Flexbox`;
   - `Media Queries`;
-  - `Responsividade para se adaptar a varios tamanhos de telas`;
+  
 ## 📁 Acesso ao projeto
 
 [Veja o projeto em funcionamento](https://aluramidi-curso.vercel.app/).
@@ -31,3 +29,9 @@ Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador ou 
 ## 📚 Mais informações
 
 Acesse minhas redes.
+
+https://github.com/pedroabs1
+
+https://www.linkedin.com/in/pedro-augusto-barbosa-de-souza-15a2b39b
+
+pedroabs1@gmail.com
