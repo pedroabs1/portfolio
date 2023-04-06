@@ -18,7 +18,7 @@ Criação de um projeto em html para divulgação dos meus trabalhos e experienc
   
 ## 📁 Acesso ao projeto
 
-[Veja o projeto em funcionamento]([https://aluramidi-curso.vercel.app/](https://portfolio-pedroabs1-pi.vercel.app/)
+[Veja o projeto em funcionamento]([https://portfolio-pedroabs1-pi.vercel.app/](https://portfolio-pedroabs1-pi.vercel.app/)
 
 Neste repositório você tem acesso a todo o codigo fonte do material produzido.
 
