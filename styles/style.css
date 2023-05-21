@@ -40,13 +40,13 @@ strong {
 
 .cabecalho__menu {
     display: flex;
-    gap: 4rem; /* 80px */;
+    gap: 4rem;
 }
 
 .cabecalho__menu__links {
     font-family: 'Roboto', sans-serif;
     color: #9DC08B;
-    font-size: 1rem; /* 16px; */
+    font-size: 1rem;
     font-wheight: 600;
     text-decoration: none;
     font-color: #9DC08B;
@@ -63,18 +63,18 @@ strong {
 }
 
 .apresentacao__conteudo {
-    width: 19.7rem; /* 315px; */
+    width: 30vw;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem; /* 36px; */
-    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    /* font-family: 'Roboto', sans-serif; */
 }
 .apresentacao__conteudo__texto {
-    font-size: 1.75rem; /* 28px; */
+    font-size: 1.2rem;
     font-family: 'Comfortaa', cursive;
     text-decoration: none;
 
@@ -85,44 +85,41 @@ strong {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;/* 10px; */
+    gap: 1rem;
 }
 .apresentacao__links__link {
     text-decoration: none;
     background: #609966;
-    width: 50%; /* 7,5rem; */ /* 120px; */
-    border-radius: 0,3rem; /* 5px; */
+    width: 50%;
+    border-radius: 0,3rem;
     text-align: center;
     font-family: 'Comfortaa', cursive;
     color: #000000;
-    font-size: 1rem; /* 16px; */
-    font-wheight: 300;
-    padding: 0.3rem; /* 5px; */
-    /* cursor: pointer; */
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.3rem;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 0.6rem; /* 10px; */
+    gap: 0.6rem;
 }
 
 .apresentacao__links__link:hover {
     text-decoration: none;
     background: #9DC08B;
-    width: 53%; /* 8rem; */ /* 120px; */
     text-align: center;
-    border-radius: 0,3rem; /* 5px; */
-    font-size: 1rem; /* 16px; */
-    font-wheight: 700;
-    padding: 0.3rem; /* 5px; */
+    border-radius: 0,3rem; 
+    font-size: 1rem; 
+    font-weight: 700;
+    padding: 0.3rem;
     font-family: 'Comfortaa', cursive;
     color: #000000;
- /* cursor: pointer; */
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 0.6rem; /* 10px; */
+    gap: 0.6rem;
 }
 
 .apresentacao__imagem {
@@ -142,65 +139,71 @@ strong {
 }
 
 .projetos__conteudo__titulo {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
+.projetos__conteudo__links {
+    font-size: 24px;
+    padding: 1rem 0;
+}
+
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 5%; /* 0,3rem; */ /* 5px; */
-    font-size: 0.6rem; /* 10px; */
-    font-wheight: 700;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto 1fr;
+    grid-gap: 1rem; 
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.gallery div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c4c3c3;
+    border-radius: 10px;
 }
 
 .gallery__img {
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
+.gallery__item {
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+}
+
 .gallery__item--1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .gallery__item--2 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .gallery__item--3 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column: 3/3;
+    grid-row: 1/2;
 }
 .gallery__item--4 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-column: 1/2;
+    grid-row: 3/3;
 }
 .gallery__item--5 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-column: 2/3;
+    grid-row: 3/3;
 }
 .gallery__item--6 {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-column: 3/3;
+    grid-row: 3/3;
 }
 
 @media (max-width: 800px) {
